@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StreetCafe - Affordable Coffee, Premium Vibes</title>
+  <meta name="description" content="StreetCafe is a cozy neighborhood cafe with handcrafted coffee and friendly prices. Your perfect hangout spot." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#" class="nav-logo">
+        <i class="fa-solid fa-mug-hot"></i> Street<span>Cafe</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#menu" class="nav-link">Menu</a></li>
+        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+        <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+        <li><a href="#location" class="nav-link">Location</a></li>
+        <li><a href="#contact" class="nav-link nav-cta">Book a Table</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <div class="hero-particles" id="heroParticles"></div>
+    <div class="container hero-content">
+      <span class="hero-badge fade-in"><i class="fa-solid fa-star"></i> Since 2020</span>
+      <h1 class="hero-title fade-in">Affordable Coffee,<br /><span>Premium Vibes</span></h1>
+      <p class="hero-sub fade-in">A cozy hangout with handcrafted coffee and friendly prices.<br />Your neighborhood spot for comfort and good conversations.</p>
+      <div class="hero-buttons fade-in">
+        <a href="#menu" class="btn btn-primary"><i class="fa-solid fa-coffee"></i> View Menu</a>
+        <a href="#location" class="btn btn-outline"><i class="fa-solid fa-location-dot"></i> Visit Us</a>
+      </div>
+      <div class="hero-stats fade-in">
+        <div class="stat">
+          <span class="stat-number" data-target="50">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Menu Items</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-target="10000">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Happy Customers</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-target="5">0</span>
+          <span class="stat-label">Years Brewing</span>
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-down"><i class="fa-solid fa-chevron-down"></i></a>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image fade-in">
+          <div class="about-img-placeholder">
+            <img class="about-img" src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?q=80&w=1200&auto=format&fit=crop" alt="StreetCafe cozy interior" />
+            <span class="about-img-label">Our Story</span>
+          </div>
+          <div class="about-badge">
+            <i class="fa-solid fa-award"></i>
+            <span>Best Local Cafe 2025</span>
+          </div>
+        </div>
+        <div class="about-text fade-in">
+          <span class="section-tag"><i class="fa-solid fa-heart"></i> About Us</span>
+          <h2 class="section-title">Where Every Cup <br />Tells a <span>Story</span></h2>
+          <p>StreetCafe is a neighborhood cafe designed for comfort, good conversations, and honest coffee. Born from a passion for bringing people together, we craft every cup with care and serve it at prices everyone can enjoy.</p>
+          <p>We believe great coffee shouldn't come with a premium price tag. That's why we source quality beans, roast them locally, and keep our prices friendly — because good vibes should be affordable.</p>
+          <div class="about-features">
+            <div class="about-feature">
+              <div class="feature-icon"><i class="fa-solid fa-leaf"></i></div>
+              <div>
+                <h4>Locally Sourced</h4>
+                <p>Premium beans from Indonesian farms</p>
+              </div>
+            </div>
+            <div class="about-feature">
+              <div class="feature-icon"><i class="fa-solid fa-hand-holding-heart"></i></div>
+              <div>
+                <h4>Handcrafted</h4>
+                <p>Every drink made with love</p>
+              </div>
+            </div>
+            <div class="about-feature">
+              <div class="feature-icon"><i class="fa-solid fa-tags"></i></div>
+              <div>
+                <h4>Affordable</h4>
+                <p>Premium vibes, friendly prices</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== MENU ========== -->
+  <section class="section menu" id="menu">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-tag"><i class="fa-solid fa-utensils"></i> Our Menu</span>
+        <h2 class="section-title">Signature <span>Selections</span></h2>
+        <p class="section-desc">Hand-picked favorites crafted with love. Every sip, every bite — made for you.</p>
+      </div>
+
+      <div class="menu-filter fade-in">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="coffee">Coffee</button>
+        <button class="filter-btn" data-filter="non-coffee">Non-Coffee</button>
+        <button class="filter-btn" data-filter="snack">Snacks</button>
+      </div>
+
+      <div class="menu-grid" id="menuGrid"></div>
+
+      <div class="menu-cta fade-in">
+        <a href="#contact" class="btn btn-primary"><i class="fa-solid fa-book-open"></i> See Full Menu</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== GALLERY ========== -->
+  <section class="section gallery" id="gallery">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-tag"><i class="fa-solid fa-camera"></i> Gallery</span>
+        <h2 class="section-title">Our <span>Atmosphere</span></h2>
+        <p class="section-desc">A peek into the StreetCafe experience. Warm, cozy, and always welcoming.</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item gallery-large fade-in">
+          <img class="gallery-img" src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=1400&auto=format&fit=crop" alt="Cozy cafe interior" />
+          <div class="gallery-hover">
+            <i class="fa-solid fa-expand"></i>
+            <span>Our Space</span>
+          </div>
+        </div>
+        <div class="gallery-item fade-in">
+          <img class="gallery-img" src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=1200&auto=format&fit=crop" alt="Fresh coffee brew" />
+          <div class="gallery-hover">
+            <i class="fa-solid fa-expand"></i>
+            <span>Fresh Brews</span>
+          </div>
+        </div>
+        <div class="gallery-item fade-in">
+          <img class="gallery-img" src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?q=80&w=1200&auto=format&fit=crop" alt="Garden seating area" />
+          <div class="gallery-hover">
+            <i class="fa-solid fa-expand"></i>
+            <span>Garden Area</span>
+          </div>
+        </div>
+        <div class="gallery-item fade-in">
+          <img class="gallery-img" src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?q=80&w=1200&auto=format&fit=crop" alt="Pastry corner" />
+          <div class="gallery-hover">
+            <i class="fa-solid fa-expand"></i>
+            <span>Pastry Corner</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TESTIMONIALS ========== -->
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-tag"><i class="fa-solid fa-quote-left"></i> Reviews</span>
+        <h2 class="section-title">What Our Customers <span>Say</span></h2>
+        <p class="section-desc">Don't just take our word for it — hear from the StreetCafe community.</p>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card fade-in">
+          <div class="testimonial-stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <p class="testimonial-text">"Best kopi susu gula aren in town! The place is super cozy and the prices are really affordable. Perfect for hanging out with friends after work."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar testimonial-avatar-img" style="background-image: url('https://i.pravatar.cc/150?img=1')"></div>
+            <div>
+              <h4>Rina Putri</h4>
+              <span>Regular Customer</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card featured fade-in">
+          <div class="testimonial-stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <p class="testimonial-text">"I come here almost every day for their Cold Brew Citrus. The atmosphere is amazing — perfect for working on my laptop. Easily my favorite cafe in the neighborhood!"</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar testimonial-avatar-img" style="background-image: url('https://i.pravatar.cc/150?img=33')"></div>
+            <div>
+              <h4>Budi Santoso</h4>
+              <span>Freelancer</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card fade-in">
+          <div class="testimonial-stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <p class="testimonial-text">"The chocolate croissant here is to die for! Warm, flaky, and perfectly chocolatey. Combined with their latte, it's the best breakfast combo. Highly recommended!"</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar testimonial-avatar-img" style="background-image: url('https://i.pravatar.cc/150?img=47')"></div>
+            <div>
+              <h4>Maya Anggraeni</h4>
+              <span>Food Blogger</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== LOCATION ========== -->
+  <section class="section location" id="location">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-tag"><i class="fa-solid fa-map-pin"></i> Find Us</span>
+        <h2 class="section-title">Visit <span>StreetCafe</span></h2>
+        <p class="section-desc">We're always ready to welcome you. Drop by anytime!</p>
+      </div>
+      <div class="location-grid">
+        <div class="location-info fade-in">
+          <div class="info-card">
+            <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div>
+              <h4>Address</h4>
+              <p>Kopi Nego<br />Bogor, Jawa Barat</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-icon"><i class="fa-solid fa-clock"></i></div>
+            <div>
+              <h4>Opening Hours</h4>
+              <p>Monday - Friday: 08:00 - 22:00<br />Saturday - Sunday: 09:00 - 23:00</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
+            <div>
+              <h4>Contact</h4>
+              <p>+62 812 3456 7890<br />hello@streetcafe.id</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-icon"><i class="fa-solid fa-wifi"></i></div>
+            <div>
+              <h4>Facilities</h4>
+              <p>Free Wi-Fi, Power Outlets<br />Indoor &amp; Outdoor Seating</p>
+            </div>
+          </div>
+        </div>
+        <div class="location-map fade-in">
+          <div class="map-embed">
+            <iframe
+              class="map-frame"
+              title="StreetCafe Location"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps?q=Kopi%20Nego&ll=-6.6340807,106.7853227&z=17&output=embed">
+            </iframe>
+            <div class="map-caption">
+              <i class="fa-solid fa-map-location-dot"></i>
+              <div>
+                <span>Kopi Nego</span>
+                <p>Bogor, Jawa Barat</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CTA / CONTACT ========== -->
+  <section class="section cta-section" id="contact">
+    <div class="cta-overlay"></div>
+    <div class="container cta-content">
+      <div class="fade-in">
+        <span class="section-tag light"><i class="fa-solid fa-envelope"></i> Get in Touch</span>
+        <h2 class="cta-title">Ready to Grab a Cup?</h2>
+        <p class="cta-desc">Book a table, ask a question, or just say hello. We'd love to hear from you.</p>
+        <div class="cta-buttons">
+          <a href="https://wa.me/6281234567890" target="_blank" class="btn btn-accent"><i class="fa-brands fa-whatsapp"></i> WhatsApp Us</a>
+          <a href="https://instagram.com/streetcafe" target="_blank" class="btn btn-outline-light"><i class="fa-brands fa-instagram"></i> Follow Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="footer-logo"><i class="fa-solid fa-mug-hot"></i> Street<span>Cafe</span></a>
+          <p>Affordable coffee, premium vibes. Your cozy corner in the heart of the city.</p>
+          <div class="footer-socials">
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Hours</h4>
+          <ul>
+            <li>Mon - Fri: 08:00 - 22:00</li>
+            <li>Sat - Sun: 09:00 - 23:00</li>
+            <li>Holidays: 10:00 - 21:00</li>
+          </ul>
+        </div>
+        <div class="footer-newsletter">
+          <h4>Stay Updated</h4>
+          <p>Get the latest promos and events straight to your inbox.</p>
+          <form class="newsletter-form" onsubmit="return false;">
+            <input type="email" placeholder="Your email address" />
+            <button type="submit"><i class="fa-solid fa-paper-plane"></i></button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 StreetCafe. All rights reserved. Made with <i class="fa-solid fa-heart"></i> in Bandung.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
